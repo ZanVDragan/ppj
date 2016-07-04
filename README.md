@@ -1,5 +1,5 @@
 # Principi Programskih Jezikov
 
-Moje rešitve vaj.
+Rešitve vaj.
 
 Za morebitne napake ne odgovarjam.
