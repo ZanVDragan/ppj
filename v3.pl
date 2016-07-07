@@ -76,7 +76,7 @@ sublist(L, SL) :-
     conc(SL, _, T).   % Divide Tail into Sublist and something.
                       % Effectively you get something Sublist something.
                       % Since Tail is a variable it is not defined, whilst
-                      % Sublist is. So conc(_,SL,L), conc(SL,_,L) would
+                      % Sublist is. Since conc(_,SL,L), conc(SL,_,L) would
                       % define List as something and Sublist AND
                       % Sublist and something, respectively. Such a List
                       % would exist only as an empty List.
